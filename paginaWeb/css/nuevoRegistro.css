@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(235, 231, 250);
+}
+
+#content_nuevoRegistro{
+    
+        padding: 0 30px;
+        margin-top: 30px;
+    
+}
+
+.content_input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content_input div{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.btn_guardar{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+.div_h1{
+    background-color:rgb(78, 78, 156);
+    padding: 5px;
+}
+.div_h1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 2px 2px 4px rgb(49, 54, 102);
+    margin-left: 50px;
+}

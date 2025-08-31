@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgb(235, 231, 250);
+    
+    
+}
+
+.div_nuevoregistro{
+    width: 200px;
+    background-color: rgb(93, 93, 161);
+    display: flex;
+    justify-content: center;
+}
+.nuevo_registro{
+    color: black;
+    
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 2px 2px 4px rgb(49, 54, 102);
+}
+
+#content_todo{
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+#content_todo h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 2px 2px 4px rgb(49, 54, 102);
+}
+
+.div_nuevoregistro:hover{
+    background-color: rgb(74, 74, 139);
+}
+
+
+
+.div_nuevoregistro:active{
+    background-color: rgb(53, 53, 100);
+}
+
+#tabla1{
+    margin-top: 30px;
+}
+
+#tabla1 th {
+    padding: 10px;
+    background-color: rgb(78, 78, 156);
+    color: white;
+    
+}
+
+#tbody td{
+    background-color: rgb(142, 142, 197);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#tbody td input{
+    background-color:  rgb(142, 142, 197) ;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#btn_mostrarTodos{
+    margin-top: 20px;
+}
+
+.div_h1{
+    background-color:rgb(78, 78, 156);
+    padding: 5px;
+}
+.div_h1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 2px 2px 4px rgb(49, 54, 102);
+    margin-left: 50px;
+}

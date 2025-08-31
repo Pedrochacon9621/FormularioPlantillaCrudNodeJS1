@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <title>Aplicacion REST</title>
+</head>
+<body>
+    <div class="div_h1"><h1>Consultar Registros</h1></div>
+    
+
+    <div id="content_todo">
+
+        <div class="div_nuevoregistro"><a href="paginas/registro.html" class="nuevo_registro" target="_blank">Nuevo Registro</a></div>
+
+
+        <h3>Ingrese Cedula</h3>
+        
+        <form action="/buscarCedula" method="get" id="form_cedula">
+            <input type="text" name="cedula" id="cedulaB">
+            <button type="submit" class="btn_buscarCedula">Buscar</button>
+        </form>
+
+        <button id="btn_mostrarTodos">Mostrar Todos</button>
+
+        <table id="tabla1">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Cedula</th>
+                    <th>Eliminar | Actualizar</th>
+                </tr>  
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div><!--FIN DE content_todo-->
+
+    <!--<a href="seleccionarTodos">a</a>-->
+
+    
+    <script src="js/ajax.js"></script> 
+</body>
+</html>
