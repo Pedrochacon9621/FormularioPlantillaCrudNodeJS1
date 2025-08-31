@@ -40,7 +40,7 @@ const nuevoRegistro = async (req, res) => {
       [nombre, apellido, cedula]
     );
     client.release();
-    res.send('REGISTRO COMPLETADO EXITOSAMENTE');
+    res.send('REGISTRO COMPLETADO EXITOSAMENTE'+' <a href="/">Volver a inicio<a/>');
   } catch (error) {
     console.error(error);
     res.status(500).send('Error al insertar');
